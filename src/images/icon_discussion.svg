@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="46px" viewBox="0 0 32 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_discussion</title>
+    <defs>
+        <linearGradient x1="50%" y1="-19.846549%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5F4FF" offset="0%"></stop>
+            <stop stop-color="#D2E7FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="28" height="42" rx="5"></rect>
+        <filter x="-10.7%" y="-7.1%" width="121.4%" height="114.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.733333333   0 0 0 0 0.733333333   0 0 0 0 0.733333333  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="98.0759079%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#F5F4FF" offset="0%"></stop>
+            <stop stop-color="#D2E7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.5814057%" y1="98.2140089%" x2="34.9771641%" y2="-87.0695753%" id="linearGradient-5">
+            <stop stop-color="#2B17E4" offset="0%"></stop>
+            <stop stop-color="#5937B9" offset="52.9903927%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="All_pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="my_card_with_collections" transform="translate(-978.000000, -87.000000)">
+            <g id="Group-3" transform="translate(730.000000, 70.000000)">
+                <g id="Group" transform="translate(250.000000, 19.000000)">
+                    <g id="background">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Combined-Shape-Copy" fill="url(#linearGradient-4)" x="5" y="7" width="18" height="28" rx="3"></rect>
+                    <path d="M20,7 C21.6568542,7 23,8.34314575 23,10 L23.0007477,16.0625244 C22.8574339,16.0218021 22.7062239,16 22.55,16 L22.55,16 L12.65,16 L12.5078006,16.0060655 C11.664085,16.0783533 11,16.7877747 11,17.6499036 L11,17.6499036 L11,25.0744695 L11.0060659,25.2166607 C11.0783579,26.0603269 11.7878207,26.7243731 12.65,26.7243731 L12.65,26.7243731 L15.125,26.7243731 L15.125,28.8898715 L15.1332887,28.9623023 C15.1818992,29.1689372 15.4341172,29.2745053 15.6174219,29.139935 L15.6174219,29.139935 L18.8375,26.7243731 L22.55,26.7243731 L22.6921994,26.7183076 C22.7982047,26.7092253 22.9013744,26.6900854 23.0007477,26.6618487 L23,32 C23,33.6568542 21.6568542,35 20,35 L8,35 C6.34314575,35 5,33.6568542 5,32 L5,10 C5,8.34314575 6.34314575,7 8,7 L20,7 Z M14.3,21.5 C14.9075132,21.5 15.4,21.9924868 15.4,22.6 C15.4,23.2075132 14.9075132,23.7 14.3,23.7 C13.6924868,23.7 13.2,23.2075132 13.2,22.6 C13.2,21.9924868 13.6924868,21.5 14.3,21.5 Z M17.6,21.5 C18.2075132,21.5 18.7,21.9924868 18.7,22.6 C18.7,23.2075132 18.2075132,23.7 17.6,23.7 C16.9924868,23.7 16.5,23.2075132 16.5,22.6 C16.5,21.9924868 16.9924868,21.5 17.6,21.5 Z M20.9,21.5 C21.5075132,21.5 22,21.9924868 22,22.6 C22,23.2075132 21.5075132,23.7 20.9,23.7 C20.2924868,23.7 19.8,23.2075132 19.8,22.6 C19.8,21.9924868 20.2924868,21.5 20.9,21.5 Z" id="Combined-Shape" fill="url(#linearGradient-5)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
