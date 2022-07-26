@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Targemy-test/static/css/main.6e13e9bc.css",
-    "main.js": "/Targemy-test/static/js/main.35db829b.js",
-    "static/media/post-img.png": "/Targemy-test/static/media/post-img.dcd3b7ab059b9fa728fd.png",
-    "static/media/Oval Copy 2.png": "/Targemy-test/static/media/Oval Copy 2.270ec5787d73fcb31cbe.png",
-    "static/media/logo-targemy.svg": "/Targemy-test/static/media/logo-targemy.85f86e7c1c1be88adf3bb6a3ecc35249.svg",
-    "static/media/false.svg": "/Targemy-test/static/media/false.51e2ab34a4807ec9c0ab0dbacb33cd86.svg",
-    "static/media/My Feed.svg": "/Targemy-test/static/media/My Feed.af4c0fc2d4170dde34e1aea84f9af08c.svg",
-    "static/media/discussion.svg": "/Targemy-test/static/media/discussion.14ca9776087ca2d5d5a831a6ef0b8be0.svg",
-    "static/media/My cards.svg": "/Targemy-test/static/media/My cards.b2194a2250c2590f45f3cf3a60404f2e.svg",
-    "static/media/New Post.svg": "/Targemy-test/static/media/New Post.25d2941943c670d7076904e56f6e95ef.svg",
-    "static/media/Trends.svg": "/Targemy-test/static/media/Trends.72e206acdeedc33c5e03f929c2adef9a.svg",
-    "static/media/icon_search.svg": "/Targemy-test/static/media/icon_search.b8b700753a001163220d.svg",
-    "static/media/icon_bookmark.svg": "/Targemy-test/static/media/icon_bookmark.0c939eba66462efae73a484327602d7f.svg",
-    "index.html": "/Targemy-test/index.html",
-    "main.6e13e9bc.css.map": "/Targemy-test/static/css/main.6e13e9bc.css.map",
-    "main.35db829b.js.map": "/Targemy-test/static/js/main.35db829b.js.map"
+    "main.css": "/targemy-test/static/css/main.d1dd7287.css",
+    "main.js": "/targemy-test/static/js/main.3a15ce63.js",
+    "static/media/post-img.png": "/targemy-test/static/media/post-img.dcd3b7ab059b9fa728fd.png",
+    "static/media/Oval Copy 2.png": "/targemy-test/static/media/Oval Copy 2.270ec5787d73fcb31cbe.png",
+    "static/media/logo-targemy.svg": "/targemy-test/static/media/logo-targemy.85f86e7c1c1be88adf3bb6a3ecc35249.svg",
+    "static/media/false.svg": "/targemy-test/static/media/false.51e2ab34a4807ec9c0ab0dbacb33cd86.svg",
+    "static/media/My Feed.svg": "/targemy-test/static/media/My Feed.af4c0fc2d4170dde34e1aea84f9af08c.svg",
+    "static/media/discussion.svg": "/targemy-test/static/media/discussion.14ca9776087ca2d5d5a831a6ef0b8be0.svg",
+    "static/media/My cards.svg": "/targemy-test/static/media/My cards.b2194a2250c2590f45f3cf3a60404f2e.svg",
+    "static/media/New Post.svg": "/targemy-test/static/media/New Post.25d2941943c670d7076904e56f6e95ef.svg",
+    "static/media/Trends.svg": "/targemy-test/static/media/Trends.72e206acdeedc33c5e03f929c2adef9a.svg",
+    "static/media/icon_search.svg": "/targemy-test/static/media/icon_search.b8b700753a001163220d.svg",
+    "static/media/icon_bookmark.svg": "/targemy-test/static/media/icon_bookmark.0c939eba66462efae73a484327602d7f.svg",
+    "index.html": "/targemy-test/index.html",
+    "main.d1dd7287.css.map": "/targemy-test/static/css/main.d1dd7287.css.map",
+    "main.3a15ce63.js.map": "/targemy-test/static/js/main.3a15ce63.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e13e9bc.css",
-    "static/js/main.35db829b.js"
+    "static/css/main.d1dd7287.css",
+    "static/js/main.3a15ce63.js"
   ]
 }
