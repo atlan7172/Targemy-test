@@ -1,14 +1,15 @@
-const AnotherPost = () => {
-    return (
-        <div className='samePosts'>
-        <div className='container'>
-        <h4 className='samePosts__title'>Похожие посты</h4>
-    <div className='samePosts__inner'>
+import {FC} from "react";
 
-        </div>
-        </div>
-        </div>
-)
+type propsType = {
+    image: string
 }
 
-export default AnotherPosts
+const AnotherPost: FC<propsType> = ({image}) => {
+    return (
+        <>
+            <img src={image} className='samePosts__item'/>
+        </>
+    )
+}
+
+export default AnotherPost
