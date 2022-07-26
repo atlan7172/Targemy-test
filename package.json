@@ -1,5 +1,6 @@
 {
   "name": "targemy",
+  "homepage": "https://atlan7172.github.io/Targemy-test/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "axios": "^0.27.2",
-    "heroku": "^7.60.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.2",
@@ -27,6 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
