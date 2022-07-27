@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/targemy-test/static/css/main.d1dd7287.css",
-    "main.js": "/targemy-test/static/js/main.3a15ce63.js",
-    "static/media/post-img.png": "/targemy-test/static/media/post-img.dcd3b7ab059b9fa728fd.png",
+    "main.css": "/targemy-test/static/css/main.29da23fc.css",
+    "main.js": "/targemy-test/static/js/main.072d67b6.js",
     "static/media/Oval Copy 2.png": "/targemy-test/static/media/Oval Copy 2.270ec5787d73fcb31cbe.png",
     "static/media/logo-targemy.svg": "/targemy-test/static/media/logo-targemy.85f86e7c1c1be88adf3bb6a3ecc35249.svg",
     "static/media/false.svg": "/targemy-test/static/media/false.51e2ab34a4807ec9c0ab0dbacb33cd86.svg",
@@ -14,11 +13,11 @@
     "static/media/icon_search.svg": "/targemy-test/static/media/icon_search.b8b700753a001163220d.svg",
     "static/media/icon_bookmark.svg": "/targemy-test/static/media/icon_bookmark.0c939eba66462efae73a484327602d7f.svg",
     "index.html": "/targemy-test/index.html",
-    "main.d1dd7287.css.map": "/targemy-test/static/css/main.d1dd7287.css.map",
-    "main.3a15ce63.js.map": "/targemy-test/static/js/main.3a15ce63.js.map"
+    "main.29da23fc.css.map": "/targemy-test/static/css/main.29da23fc.css.map",
+    "main.072d67b6.js.map": "/targemy-test/static/js/main.072d67b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1dd7287.css",
-    "static/js/main.3a15ce63.js"
+    "static/css/main.29da23fc.css",
+    "static/js/main.072d67b6.js"
   ]
 }
