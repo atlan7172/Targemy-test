@@ -283,6 +283,13 @@ body {
     padding: 17px 20px 40px;
   }
 
+  &__annotation{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #545454;
+  }
+
   &__user {
     display: flex;
     justify-content: space-between;

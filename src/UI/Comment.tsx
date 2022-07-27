@@ -1,16 +1,22 @@
+import moment from "moment";
 import React, {FC} from "react";
 
 type propsType = {
     content: string
+    date: string
 }
-const Comment: FC<propsType> = ({content}) => {
+const Comment: FC<propsType> = ({content, date}) => {
+
+    const [dateComponents, timeComponents] = date.split(' ');
+    const howTime = moment(dateComponents, "YYYYMMDD").fromNow();
+
     return (
         <div className="comments__item">
             <div className="comments__item-box">
                 <img src={require("../images/user_avatar.png")} alt="" className="avatar"/>
                 <div className="comments__item-inner">
                     <div className="comments__item-author">Frank Boehm</div>
-                    <div className="comments__item-date">2 minutes ago</div>
+                    <div className="comments__item-date">{howTime}</div>
                 </div>
                 <a href="#" className="comments__item-actions">
                     <svg width="19" height="5" viewBox="0 0 19 5" fill="none" xmlns="http://www.w3.org/2000/svg">

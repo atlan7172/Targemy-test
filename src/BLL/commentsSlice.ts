@@ -46,7 +46,7 @@ export const getComments = (page = 1) => {
 export const addComments = (page: number) => {
     return async (dispatch: Dispatch) => {
         dispatch(setLoad(true))
-        const response = await commentsAPI.getComments(page)
+        const response = await commentsAPI.getComments(page, 2)
         dispatch(addItems(response.data.items))
         dispatch(setLoad(false))
     }

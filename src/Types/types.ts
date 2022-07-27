@@ -11,6 +11,8 @@ export type postType = {
     title: string
     content: string
     photo_cover: string
+    date_create: string
+    annotation: string
 }
 
 export type metaType = {

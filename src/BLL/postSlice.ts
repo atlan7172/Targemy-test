@@ -4,17 +4,21 @@ import {postType} from "../Types/types";
 
 
 export type initialStateType = {
-    postImg: string
+    photo_cover: string
     postContent: string
     likes: number
     title: string
+    date_create: string
+    annotation: string
 }
 
 const initialState: initialStateType = {
-    postImg: '',
+    photo_cover: '',
     postContent: '',
     likes: 0,
-    title: ''
+    title: '',
+    date_create: '',
+    annotation: ''
 }
 
 export const postSlice = createSlice({
@@ -22,10 +26,12 @@ export const postSlice = createSlice({
     initialState,
     reducers: {
         setPost(state, action: PayloadAction<postType>) {
-            state.postImg = action.payload.photo_cover
+            state.photo_cover = action.payload.photo_cover
             state.postContent = action.payload.content
             state.likes = action.payload.likes
             state.title = action.payload.title
+            state.date_create = action.payload.date_create
+            state.annotation = action.payload.annotation
         }
     },
 })

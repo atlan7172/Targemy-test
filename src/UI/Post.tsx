@@ -2,11 +2,20 @@ import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {AppDispatch, RootState} from "../BLL/store";
 import {getPost} from "../BLL/postSlice";
+import parse from 'html-react-parser';
 
 const Post = () => {
 
+    const parse = require('html-react-parser');
     const dispatch = useDispatch<AppDispatch>()
-    const {postImg, likes, title} = useSelector((state: RootState) => state.post)
+    const {
+        likes,
+        title,
+        photo_cover,
+        postContent,
+        date_create,
+        annotation
+    } = useSelector((state: RootState) => state.post)
 
     useEffect(() => {
         dispatch(getPost())
@@ -14,11 +23,11 @@ const Post = () => {
 
     return (
         <div className="post">
-            <img className="post__img" src={require(".././images/post-img.png")}/>
+            <img className="post__img" src={photo_cover}/>
             <div className="post__info">
                 <div className="post__user">
                     <div className="post__user-box">
-                        <img src={postImg} alt="avatar" className="avatar"/>
+                        <img src={photo_cover} alt="avatar" className="avatar"/>
                         <div className="post__user-info">
                             <p className="post__user-name">Benedita Tavares</p>
                             <p className="post__user-followers">785 followers</p>
@@ -34,30 +43,18 @@ const Post = () => {
                     </a>
                 </div>
                 <div className="post__date">
-                    <div className="post__date-days">2 дня назад</div>
+                    <div className="post__date-days">{date_create}</div>
                     <div className="post__date-minutes">4 мин на чтение</div>
                     <a href="#" className="post__update">редактировать</a>
                 </div>
                 <div className="post__title">
                     {title}
                 </div>
-                <div className="post__text">
-                    Epicurus in armatum hostem impetum fecisse aut interrogari ut placet, inquam tum
-                    dicere
-                    exorsus est consecutus? laudem et inter argumentum conclusionemque rationis et
-                    accusamus et
-                    quasi involuta aperiri, altera occulta quaedam et fortibus viris commemorandis
-                    eorumque
-                    factis non possim accommodare torquatos nostros? quos tu paulo.
+                <div className='post__annotation'>
+                    {annotation}
                 </div>
-                <div className="post__text">
-                    Epicurus in armatum hostem impetum fecisse aut interrogari ut placet, inquam tum
-                    dicere
-                    exorsus est consecutus? laudem et inter argumentum conclusionemque rationis et
-                    accusamus et
-                    quasi involuta aperiri, altera occulta quaedam et fortibus viris commemorandis
-                    eorumque
-                    factis non possim accommodare torquatos nostros? quos tu paulo.
+                <div>
+                    {parse(postContent)}
                 </div>
             </div>
             <div className="post__actions">

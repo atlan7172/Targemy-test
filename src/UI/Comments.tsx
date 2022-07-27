@@ -14,7 +14,7 @@ const Comments = () => {
     const isLoading = useSelector((state: RootState) => state.comments.isLoading)
     const [currentPage, setCurrentPage] = useState(1)
     const commentsList = items.map(item => {
-        return <Comment key={item.id + item.user_id} content={item.content}/>
+        return <Comment key={item.id + item.user_id} content={item.content} date={item.date_create}/>
     })
 
     const loadNewComments = () => {
