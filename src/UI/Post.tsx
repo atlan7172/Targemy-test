@@ -2,7 +2,6 @@ import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {AppDispatch, RootState} from "../BLL/store";
 import {getPost} from "../BLL/postSlice";
-import parse from 'html-react-parser';
 
 const Post = () => {
 
@@ -53,7 +52,7 @@ const Post = () => {
                 <div className='post__annotation'>
                     {annotation}
                 </div>
-                <div>
+                <div className='post__content-inner'>
                     {parse(postContent)}
                 </div>
             </div>

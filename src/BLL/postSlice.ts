@@ -36,9 +36,9 @@ export const postSlice = createSlice({
     },
 })
 
-export const getPost = () => {
+export const getPost = (id = 3) => {
     return async (dispatch: Dispatch) => {
-        const response = await postAPI.getPost()
+        const response = await postAPI.getPost(id)
         dispatch(setPost(response.data))
     }
 }

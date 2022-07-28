@@ -8,7 +8,7 @@ const AnotherPosts = () => {
 
     const dispatch = useDispatch<AppDispatch>()
     const items = useSelector((state: RootState) => state.unsplash.items)
-    const pictures = items.map(item => <AnotherPost key={item.id} image={item.download_url}/>)
+    const pictures = items.map((item) => <AnotherPost key={item.id} image={item.download_url}/>)
 
     useEffect(() => {
         dispatch(getPictures())

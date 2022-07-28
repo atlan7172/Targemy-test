@@ -2,7 +2,7 @@ import {instance} from "./API";
 import {postType} from "../Types/types";
 
 export const postAPI = {
-    getPost() {
-        return instance.get<postType>(`post/3`)
+    getPost(id = 3) {
+        return instance.get<postType>(`post/${id}`)
     },
 }

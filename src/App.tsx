@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.scss';
 // @ts-ignore
 import logo from './images/logo-targemy.svg'
@@ -9,6 +9,7 @@ import Comments from "./UI/Comments";
 import AnotherPosts from "./UI/AnotherPosts";
 
 const App = () => {
+
     return (
         <div>
             <Header/>
